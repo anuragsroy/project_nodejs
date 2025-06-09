@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM nginx
 WORKDIR /app
 RUN apt update
 RUN apt install -y nodejs
